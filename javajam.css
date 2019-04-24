@@ -4,6 +4,12 @@ Date Last Modified: April 14, 2019*/
 *{
     box-sizing:border-box;
 }
+header{
+    background-color:#D2B48C;
+    height:150px;
+    background-image: url(javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
 body{
     
     color:#221811;
@@ -17,7 +23,7 @@ h1{
     font-size: 3em;
 }
 nav{
-    text-align: left;
+    text-align: center;
     font-weight:bold;
     font-size:1.5em;
     padding-top: 10px;
@@ -116,17 +122,20 @@ img{
 }
 #heroroad{
     background-image: url(heroroad.jpg);
-    background-size: 100% 250px;
+    background-size: 100% 100%;
+    height:250px;
   
 }
 #heromugs{
     background-image:url(heromugs.jpg);
-    background-size: 100% 250px;
+    background-size: 100% 100%;
+    height:250px;
    
 }
 #heroguitar{
     background-image:url(heroguitar.jpg);
-    background-size: 100% 250px;
+    background-size: 100% 100%;
+    height:250px;
 }
 .floatleft{
     float: left;
